@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
 :root {
-  --primary-color: #00b272;
+  --primary-color: #0065b3;
   --font-family: "Poppins", sans-serif;
   --text-light-shade: #8e8e8e;
   --text-dark-shade: #424242;
@@ -19,7 +19,7 @@ body {
 }
 .my-navbar {
   width: 100%;
-  height: 100px;
+  height: 120px;
   background-color: #fff;
   position: sticky;
   top: 0;
@@ -38,14 +38,14 @@ body {
 }
 .logo {
   width: 200px;
-  height: 100px;
+  height: 120px;
   object-fit: contain;
   margin-left: 2rem;
 }
 .button {
   width: fit-content;
   padding: 8px 16px;
-  background: #00b372;
+  background: #0065b3;
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
   color: #fff;
@@ -55,7 +55,7 @@ body {
 .button:hover {
   text-decoration: none;
   color: #fff;
-  background: #05c57f;
+  background: #0065b3;
   transition-duration: 0.5s;
 }
 .close {
@@ -63,6 +63,7 @@ body {
   height: 36px;
   position: absolute;
   visibility: hidden;
+  z-index: 9999; /* Adjust the value as needed to ensure it's on top */
 }
 @media only screen and (max-width: 600px) {
   .my-navbar {
