@@ -29,7 +29,7 @@ $(document).ready(function () {
 $("#submit-form").submit((e) => {
   e.preventDefault();
   $.ajax({
-    url: "https://script.google.com/macros/s/AKfycbzxqmxajdmxGkKvunrkoNm-2MgZRCOHpuvebVgY9lNG-iPogi_tTils8rp4HXyFnElf/exec",
+    url: "https://script.google.com/macros/s/AKfycbyi4h7xzC53cA4vpCM7SlRlWFF5wSZEU_q6fdVl-YPVSEjQbeYkVMyNV4X07Feyt79i/exec",
     data: $("#submit-form").serialize(),
     method: "post",
     success: function (response) {
