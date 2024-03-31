@@ -816,8 +816,8 @@ body {
 .form-area,
 .map-area {
   flex: 1;
-  height: 500px;
-  margin: 1rem;
+  /* height: 500px;
+  margin: 1rem; */
 }
 .form-area {
   padding: 2rem;
