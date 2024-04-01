@@ -19,7 +19,7 @@ body {
 }
 .my-navbar {
   width: 100%;
-  height: 140px;
+  height: 120px;
   background-color: #fff;
   position: sticky;
   top: 0;
@@ -38,7 +38,7 @@ body {
 }
 .logo {
   width: 200px;
-  height: 140px;
+  height: 120px;
   object-fit: contain;
   margin-left: 2rem;
 }
@@ -400,7 +400,7 @@ body {
 }
 .package-card {
   width: 23%;
-  height: 25rem;
+  height: 19rem;
   margin: 0.3rem;
   background-color: rgb(214, 214, 214);
   border-radius: 10px;
@@ -460,9 +460,8 @@ body {
 .kerala {
   background-image: url("../images/kerala.jpg");
 }
-.south{
+.south {
   background-image: url("../images/south.jpg");
-
 }
 .shade-layer {
   background-color: rgba(0, 0, 0, 0.5);
@@ -492,6 +491,7 @@ body {
 .p-card-text-wrapper {
   max-width: 100%;
   color: white;
+  opacity: 70%;
   padding: 1rem;
 }
 .cta-area {
