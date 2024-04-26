@@ -4,6 +4,7 @@
   --font-family: "Poppins", sans-serif;
   --text-light-shade: #8e8e8e;
   --text-dark-shade: #424242;
+  --green-light-shade: #338e4e;
   --background-shade: #f5f5f5;
 }
 html {
@@ -510,11 +511,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  position: absolute;
   bottom: 1rem;
 }
 .cta-area a {
-  color: var(--text-dark-shade);
+  color: var(--green-light-shade);
+  background-color: var(--background-shade);
 }
 .whatsapp,
 .call {
@@ -533,7 +534,7 @@ body {
 }
 .call:hover,
 .whatsapp:hover {
-  background: #fff;
+  background: #eae5e5;
   text-decoration: none;
   color: #000;
 }
