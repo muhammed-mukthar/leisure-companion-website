@@ -221,7 +221,7 @@ body {
   filter: drop-shadow(4px 4px 12px rgba(0, 0, 0, 0.25));
 }
 .home-images1 {
-  background-image: url("../images/leisure-home-image-1.webp");
+  background-image: url("../images/desert1.jpg");
 }
 .home-images2 {
   top: 3rem;
@@ -1054,4 +1054,12 @@ hr {
 
 .card_text p:last-child {
   margin: 0;
+}
+.hidden {
+  transform: translateY(-100%);
+  transition: transform 0.3s ease;
+}
+
+.blue-color {
+  color: var(--primary-color);
 }
